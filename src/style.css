@@ -1,0 +1,16 @@
+.navContainer{
+    border: solid green;
+    width:1200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+}
+.scrollContainer{
+    border: solid teal;
+    width: 800px;
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin-left: 400px;
+}
