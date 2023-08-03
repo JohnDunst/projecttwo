@@ -1,7 +1,7 @@
 .headerConatiner{
     border: solid green;
     width:100%;
-    height: 150px;
+    height: 250px;
     display: flex;
     flex-direction: column;
 
@@ -14,17 +14,16 @@
     justify-content: space-evenly;
     flex-direction: row;
     margin-left: 0%;
-    margin-top:250px;
 }
 
 .linkContainer{
 border: solid yellow;
-width: 100%;
-height: 100px;
+width: 30%;
+height:50px;
 display: flex;
 justify-content: space-evenly;
-margin-top: 0%;
-padding-top: 2%;
+margin-left: 70%;
+
 }
 #about{
     border: solid brown;

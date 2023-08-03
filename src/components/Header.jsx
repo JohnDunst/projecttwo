@@ -16,7 +16,7 @@ const Header = () => {
    
       <p>Software Engineer | Frontend Developer</p>
   
-        </div>
+        
         <ul className='linkContainer'>
         
           <li>
@@ -34,7 +34,7 @@ const Header = () => {
             <a href="#resume">Resume</a>
           </li>
         </ul>
-     
+        </div>
     </div>
   );
 };
