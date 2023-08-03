@@ -1,30 +1,41 @@
 import React from 'react';
 
-
-
-
 const Header = () => {
+  const scrollToAbout = () => {
+    const aboutSection = document.getElementById('about');
+    if (aboutSection) {
+      aboutSection.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
- <div className= "navContainer">
-      <h1>Joanthan Dunst</h1>
-      <p>Software Engineer | idk</p>
-
-  <div className='scrollContainer'>
-
-    <div className="#about">About  </div>
-
-
-    <div className="#projects">Projects</div>
-
-    <div className="#contact">Contact</div>
-
- </div>
-
-</div>
-
-
-
-
+    <div>
+      <div className='headerConatiner'>
+      <h1>Jonathan Dunst</h1>
+      
+   
+      <p>Software Engineer | Frontend Developer</p>
+  
+        </div>
+        <ul className='linkContainer'>
+        
+          <li>
+            <a href="#about" onClick={scrollToAbout}>
+              About
+            </a>
+          </li>
+          <li>
+            <a href="#projects">Projects</a>
+          </li>
+          <li>
+            <a href="#contact">Contact</a>
+          </li>
+          <li>
+            <a href="#resume">Resume</a>
+          </li>
+        </ul>
+     
+    </div>
   );
 };
 
