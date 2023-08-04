@@ -18,39 +18,27 @@
 
 .linkContainer{
 border: solid yellow;
-width: 50%;
+width: 30%;
 height:50px;
 display: flex;
 justify-content: space-evenly;
-margin-left: 20%;
+margin-left: 70%;
 
 }
 #about{
     border: solid brown;
     height: 600px;
     width: 100%;
-    margin-top: 100px;
-
 }
 #projects{
     border: solid purple;
-    margin-top: 300px;
 
     height: 600px;
     width: 100%;
 }
 #contact{
     border: solid pink;
-    margin-top: 300px;
+
     height: 600px;
     width: 100%;
-}
-.nav__logo img{
-    height: 100px;
-    width: 100px;
-}
-img{
-    max-width: 100%;
-    height: auto;
-    display: block;
 }
