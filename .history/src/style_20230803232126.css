@@ -19,11 +19,10 @@
 .linkContainer{
 border: solid yellow;
 width: 55%;
-height:115px;
+height:50px;
 display: flex;
 justify-content: space-evenly;
 margin-left: 20%;
-padding-top: 30px;
 
 }
 #about{
@@ -49,13 +48,9 @@ padding-top: 30px;
 .nav__logo img{
     height: 70px;
     width: 95px;
- 
 }
 img{
-    height: 70px;
-    width: 95px;
- 
-}
-.a{
-    margin-top: 50%;
+    max-width: 100%;
+    height: auto;
+    display: block;
 }

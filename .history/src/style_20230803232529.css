@@ -49,13 +49,9 @@ padding-top: 30px;
 .nav__logo img{
     height: 70px;
     width: 95px;
- 
+    margin-bottom: 100px;
 }
 img{
-    height: 70px;
-    width: 95px;
- 
-}
-.a{
-    margin-top: 50%;
+   
+    margin-bottom: 100px;
 }

@@ -51,11 +51,10 @@ padding-top: 30px;
     width: 95px;
  
 }
-img{
-    height: 70px;
-    width: 95px;
- 
+.img{
+   
+    margin-bottom: 100px;
 }
-.a{
-    margin-top: 50%;
+#aP{
+    
 }

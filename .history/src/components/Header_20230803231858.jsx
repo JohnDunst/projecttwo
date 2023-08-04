@@ -1,6 +1,6 @@
 import React from "react";
 import CV from "../assets/Dunst Resume.pdf";
-import Resume from "./Resume";
+import Resume from "./components/Resume";
 
 const Header = () => {
 
@@ -47,7 +47,7 @@ const Header = () => {
           </li>
           <li>
             <a href="#resume" onClick={openResume}>
-              Resume
+              resume
             </a>
           </li>
         </ul>

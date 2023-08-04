@@ -47,7 +47,7 @@ const Header = () => {
           </li>
           <li>
             <a href="#resume" onClick={openResume}>
-              Resume
+              resume
             </a>
           </li>
         </ul>
